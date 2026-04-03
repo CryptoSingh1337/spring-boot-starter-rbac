@@ -13,7 +13,7 @@
     <version>0.0.1</version>
     <name>spring-boot-starter-rbac</name>
     <description>A Spring Boot starter for annotation-driven RBAC policy enforcement</description>
-    <url/>
+    <url>https://github.com/CryptoSingh1337/spring-boot-starter-rbac</url>
     <licenses>
         <license/>
     </licenses>
@@ -21,10 +21,10 @@
         <developer/>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
+        <connection>scm:git:https://github.com/CryptoSingh1337/spring-boot-starter-rbac.git</connection>
+        <developerConnection>scm:git:git@github.com:CryptoSingh1337/spring-boot-starter-rbac.git</developerConnection>
         <tag/>
-        <url/>
+        <url>https://github.com/CryptoSingh1337/spring-boot-starter-rbac</url>
     </scm>
     <properties>
         <java.version>25</java.version>
@@ -58,5 +58,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/CryptoSingh1337/spring-boot-starter-rbac</url>
+        </repository>
+    </distributionManagement>
 
 </project>
