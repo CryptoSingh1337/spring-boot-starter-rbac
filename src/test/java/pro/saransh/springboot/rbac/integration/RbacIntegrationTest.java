@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.integration;
+package pro.saransh.springboot.rbac.integration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

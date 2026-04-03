@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.config;
+package pro.saransh.springboot.rbac.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.AutoConfigurations;

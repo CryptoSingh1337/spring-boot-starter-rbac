@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.core;
+package pro.saransh.springboot.rbac.core;
 
 import org.junit.jupiter.api.Test;
 import pro.saransh.springboot.rbac.core.Permission;

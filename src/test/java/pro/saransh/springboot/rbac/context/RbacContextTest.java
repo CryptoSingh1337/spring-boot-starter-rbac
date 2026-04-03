@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.context;
+package pro.saransh.springboot.rbac.context;
 
 import org.junit.jupiter.api.Test;
 import pro.saransh.springboot.rbac.context.RbacContext;

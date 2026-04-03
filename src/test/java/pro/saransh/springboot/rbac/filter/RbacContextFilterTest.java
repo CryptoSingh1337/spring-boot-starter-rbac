@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.filter;
+package pro.saransh.springboot.rbac.filter;
 
 import jakarta.servlet.FilterChain;
 import org.junit.jupiter.api.Test;

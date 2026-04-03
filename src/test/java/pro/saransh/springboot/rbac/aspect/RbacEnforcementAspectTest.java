@@ -1,4 +1,4 @@
-package pro.saransh.springboot.policy.aspect;
+package pro.saransh.springboot.rbac.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.junit.jupiter.api.Test;
