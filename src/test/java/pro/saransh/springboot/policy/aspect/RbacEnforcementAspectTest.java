@@ -10,14 +10,15 @@ import pro.saransh.springboot.rbac.aspect.RbacEnforcementAspect;
 import pro.saransh.springboot.rbac.context.RbacContext;
 import pro.saransh.springboot.rbac.core.Permission;
 import pro.saransh.springboot.rbac.core.RbacUserDetails;
-import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.core.Role;
+import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.exception.AccessDeniedException;
 
 import java.lang.annotation.Annotation;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 class RbacEnforcementAspectTest {

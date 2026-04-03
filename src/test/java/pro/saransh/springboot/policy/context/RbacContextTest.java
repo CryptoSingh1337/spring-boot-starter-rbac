@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import pro.saransh.springboot.rbac.context.RbacContext;
 import pro.saransh.springboot.rbac.core.Permission;
 import pro.saransh.springboot.rbac.core.RbacUserDetails;
-import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.core.Role;
+import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.exception.AccessDeniedException;
 
 import java.util.Set;

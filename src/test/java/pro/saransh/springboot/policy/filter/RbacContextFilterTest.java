@@ -7,8 +7,8 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import pro.saransh.springboot.rbac.context.RbacContext;
 import pro.saransh.springboot.rbac.core.Permission;
 import pro.saransh.springboot.rbac.core.RbacUserDetails;
-import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.core.Role;
+import pro.saransh.springboot.rbac.core.SimpleRbacUserDetails;
 import pro.saransh.springboot.rbac.filter.RbacContextFilter;
 
 import java.util.Set;
