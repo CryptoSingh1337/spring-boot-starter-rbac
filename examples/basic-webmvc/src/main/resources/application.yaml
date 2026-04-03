@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: rbac-basic-webmvc-example
+
+rbac:
+  enabled: true
